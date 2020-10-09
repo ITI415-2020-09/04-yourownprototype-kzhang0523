@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
+    [Header("Set in Inspector")]
     public Text highScore;
     public Text timeScore;
     public bool timerActive = true;
